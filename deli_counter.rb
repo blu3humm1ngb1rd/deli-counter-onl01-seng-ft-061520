@@ -23,7 +23,7 @@ end
 def now_serving(katz_deli)
   deli_line = current_customer
   if current_customer.empty?
-    puts "The line is currently empty."
+    puts "There is nobody waiting to be served!"
   else 
    current_customer do |name|
     "Currently serving #{name}"
