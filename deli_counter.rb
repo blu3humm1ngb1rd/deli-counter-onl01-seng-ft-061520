@@ -22,9 +22,12 @@ end
 
 def now_serving(katz_deli)
   deli_line = current_customer
-  current_customer do |name|
+  if current_customer.empty?
+    puts "The line is currently empty."
+  else 
+   do |name|
     "Currently serving #{name[0]}"
     current_customer.shift
   end
-  
+end
 end
