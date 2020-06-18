@@ -14,11 +14,10 @@ end
 def take_a_number(deli_line, new_customer)
   # 2 arguments
   deli_line << new_customer
-  count = 1
-  #puts to call the person's name and position
+    #puts to call the person's name and position
   deli_line do |name|
-  puts "Welcome, #{name}. You are number #{count} in line"
-  count += 1
+  puts "Welcome, #{name}. You are number #{deli_line.length} in line"
+  
   
 end 
 end
