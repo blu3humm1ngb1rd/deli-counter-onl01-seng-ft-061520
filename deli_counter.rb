@@ -21,7 +21,7 @@ end
 
 
 def now_serving(katz_deli)
-  line = []
+  katz_deli.first = order
   if katz_deli.empty?
     puts "There is nobody waiting to be served!"
   else 
