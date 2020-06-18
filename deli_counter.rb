@@ -11,12 +11,12 @@ else
   
 end
 
-def take_a_number(deli_line), new_customer)
+def take_a_number(deli_line, new_customer)
   # 2 arguments
-   << new_customer
+  deli_line << new_customer
   count = 1
   #puts to call the person's name and position
-  katz_deli do |name|
+  deli_line do |name|
   puts "Welcome, #{name}. You are number #{count} in line"
   count += 1
   
