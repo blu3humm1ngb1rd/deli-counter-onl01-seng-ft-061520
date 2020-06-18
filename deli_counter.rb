@@ -28,7 +28,7 @@ def now_serving(katz_deli)
     katz_deli.first = order
    order do |name|
     "Currently serving #{name}"
-    
+    katz_deli.unshift
   end
 end
 end
