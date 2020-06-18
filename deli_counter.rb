@@ -26,7 +26,7 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   else
       order[0] do |name|
-    "Currently serving #{name}"
+    puts "Currently serving #{name}"
     order.unshift
   end
 end
