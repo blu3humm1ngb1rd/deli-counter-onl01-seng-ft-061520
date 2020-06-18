@@ -24,6 +24,7 @@ def now_serving(katz_deli)
   deli_line = current_customer
   current_customer do |name|
     "Currently serving #{name[0]}"
-    current_customer.
+    current_customer.shift
+  end
   
 end
