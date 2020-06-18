@@ -21,13 +21,10 @@ end
 
 
 def now_serving(katz_deli)
-  order = line(katz_deli)
-  if order.empty?
+  if katz_deli < 1
     puts "There is nobody waiting to be served!"
   else
-      order[0] do |name|
-    puts "Currently serving #{name}"
-    order.unshift
-  end
+        puts "Currently serving #{katz_deli.shift}"
+    
 end
 end
