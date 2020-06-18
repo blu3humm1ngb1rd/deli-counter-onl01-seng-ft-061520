@@ -14,8 +14,9 @@ end
 def take_a_number(katz_deli, new_customer)
   # 2 arguments
   katz_deli << new_customer
+  count = 1
   #puts to call the person's name and position
-  katz_deli.each.with_index(1) do |name, index|
+  katz_deli do |name|
   puts "Welcome, #{name}. You are number #{index} in line."
   
 end 
