@@ -13,7 +13,7 @@ end
 
 def take_a_number(deli_line), new_customer)
   # 2 arguments
-  katz_deli << new_customer
+   << new_customer
   count = 1
   #puts to call the person's name and position
   katz_deli do |name|
