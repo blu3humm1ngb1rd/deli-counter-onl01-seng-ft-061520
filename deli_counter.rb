@@ -25,7 +25,7 @@ def now_serving(katz_deli)
   if katz_deli.empty?
     puts "There is nobody waiting to be served!"
   else
-    katz_deli.first = order
+    order = katz_deli.first
    order do |name|
     "Currently serving #{name}"
     katz_deli.unshift
