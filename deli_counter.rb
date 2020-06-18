@@ -18,10 +18,8 @@ def take_a_number(deli_line, new_customer)
   puts "Welcome, #{new_customer}. You are number #{deli_line.length} in line."
   
 end
-#def take_a_number(katz_deli, name)
- # katz_deli << 
- # if katz_delikatz_deli.each.with_index(1) do |num|
-    #"You are number #{num} in line
-#puts "Welcome, #{name}, you are number #{index} in line."
 
-#end 
+
+def now_serving(katz_deli)
+  "Currently serving #{katz_deli[0]}"
+end
