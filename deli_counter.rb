@@ -21,11 +21,11 @@ end
 
 
 def now_serving(katz_deli)
-  deli_line = current_customer
-  if current_customer.empty?
+  
+  if katz_deli.empty?
     puts "There is nobody waiting to be served!"
   else 
-   current_customer do |name|
+   katz_deli do |name|
     "Currently serving #{name}"
     name.shift
   end
