@@ -21,6 +21,9 @@ end
 
 
 def now_serving(katz_deli)
-  "Currently serving #{katz_deli[0]}"
+  deli_line = current_customer
+  current_customer do |name|
+    "Currently serving #{name[0]}"
+    current_customer.
   
 end
