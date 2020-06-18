@@ -13,7 +13,10 @@ end
 
 def take_a_number(katz_deli, new_customer)
   # 2 arguments
-  #puts to call the person's name and position (starting at 1)
+  #puts to call the person's name and position
+  katz_deli.each.with_index(1) do |name, index|
+  puts "Welcome, #{new_customer}. You are number #{index} in line."
+end 
 end
 #def take_a_number(katz_deli, name)
  # katz_deli << 
