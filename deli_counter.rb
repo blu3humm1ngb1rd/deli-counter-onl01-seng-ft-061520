@@ -11,7 +11,7 @@ else
   
 end
 
-def take_a_number(katz_deli, new_customer)
+def take_a_number(deli_line), new_customer)
   # 2 arguments
   katz_deli << new_customer
   count = 1
