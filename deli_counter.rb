@@ -17,7 +17,8 @@ def take_a_number(katz_deli, new_customer)
   count = 1
   #puts to call the person's name and position
   katz_deli do |name|
-  puts "Welcome, #{name}. You are number #{index} in line."
+  puts "Welcome, #{name}. You are number #{count} in line"
+  count += 1
   
 end 
 end
