@@ -15,7 +15,7 @@ def take_a_number(deli_line, new_customer)
   # 2 arguments
   deli_line << new_customer
     #puts to call the person's name and position
-    puts "Welcome, #{new_customer}. You are number #{deli_line.length} in line."
+  puts "Welcome, #{new_customer}. You are number #{deli_line.length} in line."
   
 end
 #def take_a_number(katz_deli, name)
